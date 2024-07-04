@@ -4,14 +4,14 @@
 */
 
 #include <iostream>
-#include <string>
+#include <algorithm>
 
 int main()
 {
     std::string userString{};
 
     std::cout << "Enter a strign to reverse: ";
-    std::getline(std::cin, userString);
+    std::getline(std::cin, userString);    
 
     std::reverse(userString.begin(), userString.end());
     
